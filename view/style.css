@@ -1,0 +1,72 @@
+html, body{
+	background: #EAFAF1;
+}
+
+#dbwords{
+	height: 70px;
+	width: 200px;
+	margin: 0 auto;
+	font-family: 'Nosifer', cursive;
+	font-size: 29px;
+	color:  #02c9ff;
+	background: #EAFAF1;
+}
+
+#add_words{
+	margin-top: 40px;
+	background: #EAFAF1;
+}
+
+.table-striped{
+	background: #82e0aa;
+	height: 200px;
+	width: 50%;
+	margin: 0 auto;
+}
+
+#inputbg{
+	background: #02c9ff;
+}
+
+
+#inputbg:focus{
+	background: #58d4f5;
+}
+
+
+ /*#wordList{
+	background: #8CE3E8;
+	height: 400px;
+	width: 600px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+#wordList li{
+	list-style: none;
+}
+
+.card{
+    height:400px;
+    width:500px;
+    background: #FFFFFF;
+    border-radius: 2px;
+    margin: 0 auto;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.16), 0 2px 10px rgba(0,0,0,0.12);
+}
+
+.custom-list li{
+	font-size: 20px;
+	top: 20px;
+	left:175px;
+	margin-top: 10px;
+    list-style-type: none;
+    position: relative;
+}
+
+.custom-list li::before{
+    content: "\f183";
+    font-family: FontAwesome;
+    color: #FF5733;
+}
+*/

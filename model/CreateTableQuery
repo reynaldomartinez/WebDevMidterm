@@ -1,0 +1,14 @@
+CREATE TABLE MidtermProject(
+	ID int NOT NULL PRIMARY KEY AUTO_INCREMENT,
+	WORDS varchar(10) UNIQUE NOT NULL 	
+)
+
+INSERT INTO MidtermProject(WORDS)
+VALUES  ("hellboy"),
+		("yahoo"),
+		("random"),
+		("hero"),
+		("welcome"),
+//COMMENT: NOTICE THAT THE ENDING QUOTATION MARK IS NOT THE SAME AS THE OTHERS SO THERE
+	   WILL BE AN ERROR  :)
+		("super” );
