@@ -61,16 +61,12 @@ require('../model/word_db.php');
   </tbody>
 </table>
 
-        <div id="add_words" class="text-center">
-        	<form action="../model/add_words.php" method="post">
-	            <input id="inputbg" type="text" name="words" value="jh" maxlength="20"> 
-	            <input type="submit" value="Add Word">
-        	</form>
-        </div>
-
-
-
-
+  <div id="add_words" class="text-center">
+  	<form action="../model/add_words.php" method="post">
+        <input id="inputbg" type="text" name="words" value="jh" maxlength="20"> 
+        <input type="submit" value="Add Word">
+  	</form>
+  </div>
 
 	</body>
 </html>

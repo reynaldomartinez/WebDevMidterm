@@ -11,8 +11,10 @@ if ($ID != false){
 	$statement->bindValue(':ID', $ID);
 	$statement->execute();
 	$statement->closeCursor();
+
 }
 
 
 include('../view/display_words.php');
+
 ?>
