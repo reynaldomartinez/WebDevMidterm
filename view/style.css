@@ -1,43 +1,27 @@
-html, body{
-	background: #EAFAF1;
-}
+
 
 #dbwords{
 	height: 70px;
 	width: 200px;
 	margin: 0 auto;
-	font-family: 'Nosifer', cursive;
 	font-size: 29px;
-	color:  #02c9ff;
 }
 
 #add_words{
 	margin-top: 40px;
-	background: #EAFAF1;
 }
 
 .table-striped{
-	background: #82e0aa;
 	height: 200px;
 	width: 50%;
 	margin: 0 auto;
 }
 
-#inputbg{
-	background: #02c9ff;
-}
-
-
-#inputbg:focus{
-	background: #58d4f5;
-}
-
 .inh1{
-	background: #EAFAF1;
+	
 	margin: 0 auto;
 	padding: 20px;
 	font-size: 3em;
-	font-family: 'Indie Flower', cursive;
 	font-weight: bolder;
 }
 

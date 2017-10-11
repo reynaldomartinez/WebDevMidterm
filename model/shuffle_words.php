@@ -11,4 +11,4 @@
 	$statement->closeCursor();
 
 
-	shuffle($words);
+ shuffle($words);
