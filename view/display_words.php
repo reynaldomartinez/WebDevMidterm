@@ -18,6 +18,12 @@ require('../model/word_db.php');
     <link href="https://fonts.googleapis.com/css?family=Nosifer" rel="stylesheet">
 </head>
 	<body>
+    <?php
+
+
+
+
+    ?>
 		<div id="dbwords">
 			<p>Words In Database:</p>
 		</div>

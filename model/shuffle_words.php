@@ -1,14 +1,22 @@
 <?php
 
-	$query = 'SELECT * FROM MidtermProject
-				ORDER BY ID
-				LIMIT 0,15';
-	$statement = $db->prepare($query);
-	$statement->execute();
-
-	$words = $statement->fetchAll();
-	
-	$statement->closeCursor();
+$results = $db->query('SELECT * FROM MidtermProject ORDER BY RAND() LIMIT 1');
+$words = $results->fetchALL();
 
 
- shuffle($words);
+
+foreach ($words as $word);
+$randomWord = $word['WORDS'];
+
+session_start();
+$wordBeingUsed = '';
+if(!isset($_SESSION['wordBeingUsed'])){
+
+    $_SESSION['wordBeingUsed'] = $randomWord;
+
+}else{
+
+    $wordBeingUsed = $_SESSION['wordBeingUsed'];
+}
+//session_destroy();
+
